@@ -17,6 +17,7 @@ function destructivelyRemoveLastKitten(name) {
 }
 
 function appendKitten(name) {
+  //return [...kittens, name];
   var kit = kittens.slice();
   kit.push(name);
   return kit;
