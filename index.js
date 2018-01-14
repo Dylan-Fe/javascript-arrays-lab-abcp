@@ -31,12 +31,14 @@ function prependKitten(name) {
 }
 
 function removeLastKitten() {
+  //return kittens.slice(1);
   var kit = kittens.slice();
   kit.pop();
   return kit;
 }
 
 function removeFirstKitten() {
+  //return kittens.slice(1);
   var kit = kittens.slice();
   kit.shift();
   return kit;
